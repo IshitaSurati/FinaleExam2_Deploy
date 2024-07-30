@@ -2,19 +2,101 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
-      "email": "admin@example.com",
-      "password": "admin123",
-      "role": "admin"
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "phone": "123-456-7890",
+      "city": "surat"
     },
     {
-      "id": "c6d2",
-      "username": "ishita",
-      "email": "ishita123@gmail.com",
+      "id": "a2ce",
+      "name": "ishita",
+      "email": "ishitasurati@gmail.com",
       "password": "12345",
-      "role": "user"
+      "userType": "user"
     }
   ],
-  "courses": [],
-  "purchases": []
+  "food": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "description": "Delicious cheese pizza",
+      "categories": "Pizza",
+      "price": 12.99,
+      "rating": 5.4,
+      "image": "https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_640.jpg",
+      "city": "Surat"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "description": "Juicy beef burger",
+      "categories": "Burger",
+      "price": 8.99,
+      "rating": 3.4,
+      "image": "https://cdn.pixabay.com/photo/2022/05/25/21/28/burger-7221436_640.jpg",
+      "city": "Mumbai"
+    },
+    {
+      "id": 3,
+      "name": "Pasta",
+      "description": "creamy pasta",
+      "categories": "Pasta",
+      "price": 5.99,
+      "rating": 4.4,
+      "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/pasta-712664_640.jpg",
+      "city": "Surat"
+    },
+    {
+      "id": 4,
+      "name": "Tacos",
+      "description": "Spicy Mexican tacos with fresh vegetables",
+      "categories": "Mexican",
+      "price": 10.99,
+      "rating": 4.5,
+      "image": "https://cdn.pixabay.com/photo/2022/11/28/20/05/taco-7623097_640.jpg",
+      "city": "Surat"
+    },
+    {
+      "id": 5,
+      "name": "Sushi",
+      "description": "Authentic Japanese sushi rolls",
+      "categories": "Japanese",
+      "price": 15.99,
+      "rating": 4.8,
+      "image": "https://cdn.pixabay.com/photo/2023/07/07/17/47/sushi-8113165_1280.jpg",
+      "city": "Mumbai"
+    },
+    {
+      "id": 6,
+      "name": "Salad",
+      "description": "Fresh garden salad with a variety of vegetables",
+      "categories": "Salad",
+      "price": 6.99,
+      "rating": 4,
+      "image": "https://cdn.pixabay.com/photo/2015/11/08/07/37/eat-1033210_640.jpg",
+      "city": "Delhi"
+    },
+    {
+      "id": 7,
+      "name": "Ice Cream",
+      "description": "Creamy vanilla ice cream with chocolate sauce",
+      "categories": "Dessert",
+      "price": 3.99,
+      "rating": 4.9,
+      "image": "https://cdn.pixabay.com/photo/2023/11/29/09/39/ice-cream-8419129_640.jpg",
+      "city": "Surat"
+    },
+    {
+      "id": 8,
+      "name": "Falafel",
+      "description": "Crispy falafel with hummus and pita bread",
+      "categories": "Middle Eastern",
+      "price": 7.99,
+      "rating": 4.3,
+      "image": "https://cdn.pixabay.com/photo/2015/09/18/17/47/vegan-946034_640.jpg",
+      "city": "Mumbai"
+    }
+  ],
+  "cart": []
 }
